@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit'
-  s.version               = '1.8.2'
+  s.version               = '1.8.2.1'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
-  s.homepage              = 'https://github.com/pandamonia/BlocksKit'
+  s.homepage              = 'https://github.com/OliverLetterer/BlocksKit'
   s.author                = { 'Zachary Waldowski' => 'zwaldowski@gmail.com',
                               'Alexsander Akers' => 'a2@pandamonia.us' }
-  s.source                = { :git => 'https://github.com/pandamonia/BlocksKit.git', :tag => "v#{s.version}" }
+  s.source                = { :git => 'https://github.com/OliverLetterer/BlocksKit.git', :tag => "v#{s.version}" }
   s.requires_arc          = true
   s.osx.source_files      = 'BlocksKit/*.{h,m}'
   s.osx.library           = 'ffi'
